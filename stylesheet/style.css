@@ -1,0 +1,137 @@
+body {
+  font-size: 18px;
+  background-color: #0d192b;
+  font-family: 'Outfit', 'Raleway';
+  overflow: hidden;
+}
+
+.card {
+  border-radius: 10px;
+  width: 17em;
+  height: 29em;
+  padding-top: .5em;
+  margin: 7% auto;
+  background-color: #14253d;
+  -webkit-box-shadow: black 0px 0px 30px 5px;
+          box-shadow: black 0px 0px 30px 5px;
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+}
+
+.card a:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: #00fff7;
+}
+
+.card .card-image {
+  cursor: pointer;
+  border-radius: 9px;
+  width: 14.5em;
+  height: 14.5em;
+  display: block;
+  margin: 0.5em auto;
+  background-image: url("../images/image-equilibrium.jpg");
+  background-size: contain;
+}
+
+.card .card-image .view {
+  display: block;
+  padding: 6em;
+  opacity: 0;
+}
+
+.card .card-image:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 255, 255, 0.6)), to(rgba(0, 255, 255, 0.6))), url("../images/image-equilibrium.jpg");
+  background-image: linear-gradient(rgba(0, 255, 255, 0.6), rgba(0, 255, 255, 0.6)), url("../images/image-equilibrium.jpg");
+}
+
+.card .card-image:hover .view {
+  opacity: 1;
+}
+
+.card .card-content {
+  margin: 2em 1em;
+}
+
+.card .card-content .card-title {
+  margin-bottom: 1em;
+  margin-top: -12px;
+}
+
+.card .card-content .card-title h3 {
+  font-weight: 400;
+}
+
+.card .card-content .card-description {
+  font-size: smaller;
+}
+
+.card .card-content .card-description,
+.card .card-content .time-left {
+  color: #8bacda;
+  opacity: .9;
+  font-weight: 300;
+  margin-bottom: 1em;
+  margin-right: 0.5em;
+}
+
+.card .card-content .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: .5em 0;
+  font-size: smaller;
+}
+
+.card .card-content .info .price {
+  color: #00fff7;
+  font-size: small;
+  font-weight: 400;
+}
+
+.card .card-content .info .price img {
+  position: relative;
+  top: 3px;
+  margin-right: 6px;
+}
+
+.card .card-content .info .time-left img {
+  position: relative;
+  top: 3px;
+  left: -4px;
+}
+
+.card .card-content hr {
+  border-top: 0.5px solid #2f415b;
+  opacity: .1;
+  margin-top: 0;
+}
+
+.card .card-content .creation-author img {
+  width: 2em;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.card .card-content .creation-author p {
+  position: relative;
+  top: -15px;
+  left: 10px;
+  display: inline-block;
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+}
+
+.card .card-content .creation-author .first-words {
+  color: #8bacda;
+}
+/*# sourceMappingURL=style.css.map */
