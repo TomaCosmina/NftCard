@@ -21,7 +21,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/TomaCosmina)
+- Frontend Mentor - [@TomaCosmina](https://www.frontendmentor.io/profile/TomaCosmina)
 
 
 
