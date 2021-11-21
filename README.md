@@ -15,8 +15,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - SCSS 
-- Flexbox
-- Mobile-first workflow
+
 
 
 
